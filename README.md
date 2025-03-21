@@ -10,7 +10,7 @@
 
 ## Background
 
-<img src="./docs/fig1.png" alt="fig1" width="1000">
+<img src="./docs/fig1.png" alt="fig1" width="900">
 
 Cross-modal retrieval aims to associate relevant samples from a gallery set across different modalities. Recently, pre-trained models have emerged as the dominant approach for this task. These models leverage generic knowledge from the source domain to perform **zero-shot** retrieval in target domains or can be **fine-tune**d on domain-specific data for customization. 
 
@@ -20,19 +20,19 @@ However, their success heavily relies on the assumption that the given queries e
 
 TCR employs a novel module to refine the query predictions (namely, retrieval results of the query) and a joint objective to prevent query shift from disturbing the common space, thus achieving online adaptation for the cross-modal retrieval models with query shift. 
 
-<img src="./docs/fig2.png" alt="fig2" width="1200">
+<img src="./docs/fig2.png" alt="fig2" width="1000">
 
 ## Benchmarks
 
 To investigate the influence of cross-modal retrieval with query shift, we employ the following two settings for extensive evaluations: 
 
-- **Query Shift (QS)**: In this setting, only the queries come from different distributions with the source-domain data. Following [this repository](https://github.com/Jielin-Qiu/MM_Robustness), we introduce 16 types of corruptions to the image modality and 15 types to the text modality across widely-used image-text retrieval datasets, COCO and Flickr. As a result, the **COCO-C** and Flickr-C benchmarks are constructed, which would result in distribution shifts on either the image or text modalities.
+- **Query Shift (QS)**: In this setting, only the queries come from different distributions with the source-domain data. Following [this repository](https://github.com/Jielin-Qiu/MM_Robustness), we introduce 16 types of corruptions to the image modality and 15 types to the text modality across widely-used image-text retrieval datasets, COCO and Flickr. As a result, the **COCO-C** and **Flickr-C** benchmarks are constructed, which would result in distribution shifts on either the image or text modalities.
 
-<img src="./docs/QS.png" alt="QS" width="1000">
+<img src="./docs/QS.png" alt="QS" width="800">
 
 - **Query-Gallery Shift (QGS)**: In this setting, both the query and gallery samples are drawn from distributions different from the source-domain data. To this end, evaluations are directly conducted on the pre-trained model upon several widely-used image-text retrieval datasets from various domains, including Fashion-Gen from the e-commerce domain, **CUHK-PEDES** and **ICFG-PEDES** from the person re-identification (ReID) domain, and **COCO**, Flickr, and **Nocaps** from the natural image domain.
 
-<img src="./docs/QGS.png" alt="QGS" width="1000">
+<img src="./docs/QGS.png" alt="QGS" width="800">
 
 We provide two evaluation settings for the query shift challenge. You can download the benchmarks via [Google Cloud](https://drive.google.com/drive/folders/17QyJ9Y52XB67jektNvhUk6jKmIQnoatF?usp=sharing) or [Baidu Clound](https://pan.baidu.com/s/1Roulr_VPLJ7kr4eHwjrpJA?pwd=abcd) (Passwd: abcd).
 
