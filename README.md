@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Test-time Adaptation for Cross-modal Retrieval with Query Shift
 
 [![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://hbinli.github.io/TCR/)
@@ -142,3 +143,11 @@ If this codebase is useful for your work, please cite the following papers:
 
 ## Acknowledgements
 The code is based on [MM_Robustness](https://github.com/Jielin-Qiu/MM_Robustness) and [BLIP](https://github.com/salesforce/BLIP) licensed under Apache 2.0.
+=======
+# 📚 Test-time Adaptation for Cross-modal Retrieval with Query Shift
+
+This is the official PyTorch implementation for [Test-time Adaptation for Cross-modal Retrieval with Query Shift](https://openreview.net/pdf?id=BmG88rONaU) (ICLR 2025).
+
+The code will come soon.
+
+>>>>>>> upstream/main
