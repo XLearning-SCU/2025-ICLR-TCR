@@ -4,15 +4,18 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2401.16702-b31b1b.svg)](https://arxiv.org/abs/2410.15624)
 [![zhihu](https://img.shields.io/badge/-WeChat@机器之心-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/w3mp7j6_7ZIfcmNFAUJDRA)
 
-## What's New
+## What's New 🚀 (2025.11)
 
-- We extend the definition of **query shift** and tackle more challenging **multi-distribution shift** and **diverse shift scenarios** across a broader spectrum of cross-modal retrieval tasks, including **video–audio retrieval** and **composed image retrieval**. The paper is available at [here](https://arxiv.org/abs/2511.14416)
+- We extend the definition of **query shift** and tackle more challenging **multi-distribution shift** and **diverse shift scenarios** across a broader spectrum of cross-modal retrieval tasks, including **video–audio retrieval** and **composed image retrieval**.
 
+> Haobin Li, Mouxing Yang, Xi Peng, Toward Robust and Harmonious Adaptation for
+Cross-modal Retrieval, Arxiv.  [[paper]](https://arxiv.org/abs/2511.14416) 
+  
 ## Definition
 
 **Query shift** refers to the online query stream originating from the domain that follows a different distribution with the source one. TCR (Test-time adaptation for Cross-modal Retrieval) aims to reconcile **query shift** challenge in the cross-modal setting. 
 
-> Haobin Li, Peng Hu, Qianjun Zhang, Xi Peng, Xiting Liu, Mouxing Yang, Test-time Adaptation for Cross-modal Retrieval with Query Shift, ICLR 2025 (Spotlight).  [[paper]](https://openreview.net/pdf?id=BmG88rONaU) 
+> Haobin Li, Peng Hu, Qianjun Zhang, Xi Peng, Xiting Liu, Mouxing Yang, Test-time Adaptation for Cross-modal Retrieval with Query Shift, ICLR 2025 (Spotlight).  👉 [[paper]](https://openreview.net/pdf?id=BmG88rONaU) 
 
 ## Background
 
