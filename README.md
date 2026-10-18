@@ -9,7 +9,7 @@
 - We extend the definition of **query shift** and tackle more challenging **multi-distribution shift** and **diverse shift scenarios** across a broader spectrum of cross-modal retrieval tasks, including **video–audio retrieval** and **composed image retrieval**.
 
 > Haobin Li, Mouxing Yang, Xi Peng, Toward Robust and Harmonious Adaptation for
-Cross-modal Retrieval, IEEE TPAMI, 2026. 👉 [[paper]](https://arxiv.org/abs/2511.14416) 
+Cross-modal Retrieval, IEEE TPAMI, 2026. 👉 [[paper]](https://arxiv.org/abs/2511.14416)  [[code]](https://github.com/XLearning-SCU/2026-TPAMI-REST) 
   
 ## Definition
 
